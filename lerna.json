@@ -6,10 +6,6 @@
   ],
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "./student/**",
-        "./teacher/**"
-      ],
       "message": "chore(release): publish"
     }
   }
