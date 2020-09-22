@@ -19,11 +19,13 @@ interface IRoundedAvatar {
 }
 
 const Avatar = ({ uri, size }: IRoundedAvatar) => {
-  return <Image source={{ uri }} style={{
-    width: size,
-    height: size,
-    borderRadius: size / 2,
-  }}/>
+  return (
+    <Image source={{ uri }} style={{
+      width: size,
+      height: size,
+      borderRadius: size / 2,
+    }}/>
+  )
 }
 
 export {
