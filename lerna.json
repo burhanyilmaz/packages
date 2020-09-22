@@ -1,0 +1,16 @@
+{
+  "version": "independent",
+  "packages": [
+    "components",
+    "i18n"
+  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "./student/**",
+        "./teacher/**"
+      ],
+      "message": "chore(release): publish"
+    }
+  }
+}
