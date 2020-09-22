@@ -28,7 +28,16 @@ const Avatar = ({ uri, size }: IRoundedAvatar) => {
   );
 }
 
+interface ISpace {
+  value: number;
+}
+
+const Space = ({ value }: ISpace) => {
+  return <View style={{ width: 0, height: 0, marginTop: value }} />
+}
+
 export {
   Card,
+  Space,
   Avatar
 };
