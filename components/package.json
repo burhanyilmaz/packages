@@ -1,6 +1,6 @@
 {
   "name": "@educa/components",
-  "version": "0.0.20",
+  "version": "0.0.24",
   "description": "Components",
   "keywords": [
     "component"
@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "c3bf00d0ea3978af164952fcbc15873601c1961f",
+  "gitHead": "44d928f31adb100ab741a8cdc433a2238c320f47",
   "publishConfig": {
     "access": "public"
   },
